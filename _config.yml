@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "S/V Artemis"
 title_separator          : "-"
 name                     : "Jim & Mimi Nanney"
-description              : "We bought a sailboat, we took sailing lessons, now we work towards our sailing adventures."
-url                      : #"http://svartemis.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "We bought a sailboat, we took sailing lessons, now we work towards our sailing adventures on the Mississippi Gulf Coast"
+url                      : "http://svartemis.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jimnanney/svartemis" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -77,17 +77,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  name             : "Artemis Crew: Jim & Mimi Nanney"
+  avatar           : "/assets/images/jim.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : ""
+  location         : "Biloxi, MS"
+  email            : "jnanney@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "jimnanney"
   foursquare       :
   github           :
   google_plus      :
@@ -104,7 +104,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://youtube.com/jimnanney" # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
@@ -239,7 +239,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
